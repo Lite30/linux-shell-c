@@ -39,7 +39,7 @@ Additionally, the command line prompt contains the pathname of the current direc
 
 ## Installation
 
-To install MyShell, follow these steps:
+To install MyShell,navigate to your desired directory in Linux and follow these steps:
 
 1. Clone the repository:
    ```bash
@@ -49,13 +49,13 @@ To install MyShell, follow these steps:
    ```bash
    make
 
-## usage
-1. To use the shell simply enter:
+## Usage
+1. To use the shell simply enter
    ```bash
    ./myshell
-in the terminal and a welcome screen should appear.
+  in the terminal and a welcome screen should appear.
 
-## commands
+## Commands
 Internal Commands
 
 `mycd <directory>`
@@ -97,7 +97,7 @@ Internal Commands
  - **A unique command that provides functionality not offered by standard Linux commands.
    Detailed description and usage instructions for myone are provided below**.
    
-## implementation-details
+## Implementation-details
 Implementation Details
 
 `mycd <directory>`
@@ -143,12 +143,12 @@ Implementation Details
 Implementation:
 
     Reads from the /proc/uptime file and displays the system uptime in a human-readable format.
-## makefile
+## Makefile
 A Makefile is provided to compile the source code. Use the following command to compile:
 
     make
 
-## contributing
+## Contributing
  - **Fork the repository.**
  - **Create a new branch (`git checkout -b feature-branch`)**.
  - **Make your changes and commit them (`git commit -m 'Add new feature'`)**.
@@ -158,12 +158,12 @@ A Makefile is provided to compile the source code. Use the following command to 
 **version 1.0- 28 May 2024**
 - **Initial Release**
 
-## license
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-## contact
+## Contacts
 - `Email:` litebohomaseli3@gmail.com
 - `instagram:` [litebohomaseli](https://www.instagram.com/litebohomaseli/)
-## co-authors
+## Co-authors
 - **Keketso Tolo** - [@kent_tolo](https://www.instagram.com/kent_tolo/)
 - **Mosiuoa Sello** - [@_mossie__](https://www.instagram.com/_mossie__/)
 - **Khoase Hashatsi** - [@fred_hashatsi](https://www.instagram.com/fred_hashatsi/)
