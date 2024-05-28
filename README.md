@@ -12,8 +12,10 @@ This repository contains the source code and documentation for MyShell, a simple
 - [Implementation Details](#implementation-details)
 - [Makefile](#makefile)
 - [Contributing](#contributing)
+- [Release Notes:](#Release-Notes)
 - [License](#license)
 - [Contact](#contact)
+- [Credits](#credits)
 
 ## Introduction
 
@@ -152,8 +154,16 @@ A Makefile is provided to compile the source code. Use the following command to 
  - **Make your changes and commit them (`git commit -m 'Add new feature'`)**.
  - **Push to the branch (`git push origin feature-branch`)**.
  - **Open a Pull Request.**
+## Release-Notes
+**version 1.0- 28 May 2024**
+- **Initial Release**
 
 ## license
+## contact
+- `Email:` litebohomaseli3@gmail.com
+- `instagram:` litebohomaseli
+## credits
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## contact
 
