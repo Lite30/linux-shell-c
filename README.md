@@ -94,49 +94,49 @@ Internal Commands
 `myone`
  - **A unique command that provides functionality not offered by standard Linux commands.
    Detailed description and usage instructions for myone are provided below**.
+   
 ## implementation-details
 Implementation Details
-mycd
 
-    Uses the chdir system call to change the directory.
-    Updates the PWD environment variable.
+`mycd <directory>`
 
-myclr
+ - **Uses the `chdir` system call to change the directory.**.
+ - **Updates the `PWD` environment variable.**.
+ - **Reports an error if the directory does not exist**.
+ -**Changes the PWD environment variable accordingly**.
 
-    Uses ANSI escape codes to clear the screen.
 
-mydir
+`myclr`
 
-    Uses opendir, readdir, and closedir functions to list directory contents.
+ - **Uses ANSI escape codes to clear the screen.**.
 
-myenviron
+`mydir <directory>`
 
-    Iterates through the environment variables using the environ pointer.
+ - **Uses `opendir`, `readdir`, and `closedir` functions to list directory contents.**.
 
-myecho
+`myenviron`
 
-    Prints the arguments to the standard output, ensuring multiple spaces/tabs are reduced to a single space.
+ - **Iterates through the environment variables using the `environ` pointer.
+`myecho `
 
-myhelp
+ - **Prints the arguments to the standard output, ensuring multiple spaces/tabs are reduced to a single space.**.
 
-    Uses the more filter to display the user manual, typically found in a help text file.
+`myhelp`
 
-mypause
+ - **Uses the `more` filter to display the user manual, typically found in a help text file.**.
 
-    Waits for the user to press 'Enter' by reading from standard input.
+`mypause`
 
-myquit
+ - **Pauses the shell until 'Enter' is pressed**.
 
-    Exits the shell using the exit system call.
+`myquit`
 
-myone
+ - **Exits the shell using the `exit` system call.**.
+ 
+`myone`
+ - **A unique command that provides functionality not offered by standard Linux commands.**.
 
-    Description: myone is a custom command that, for instance, could calculate and display the current system's uptime.
-    Usage:
 
-    bash
-
-myone
 
 Implementation:
 
@@ -144,9 +144,8 @@ Implementation:
 ## makefile
 A Makefile is provided to compile the source code. Use the following command to compile:
 
-bash
-
-make
+    ```bash
+    make
 
 Sample Makefile
 
