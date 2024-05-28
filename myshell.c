@@ -173,7 +173,11 @@ void welcomeScreen() {
     printf("\n\t============================================\n");
     printf("\t               Welcome to myShell\n");
     printf("\t--------------------------------------------\n");
-    printf("\t               Created by SNAILS\n");
+    printf("\t               Created by:\n");
+    printf("\t               Liteboho Maseli\n");
+    printf("\t               Keketso Tolo\n");
+    printf("\t               Mosiuoa Sello\n");
+    printf("\t               Khoase Hashatsi\n");
     printf("\t============================================\n");
     printf("\n\n");
 }
