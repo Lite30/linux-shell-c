@@ -44,4 +44,59 @@ To install MyShell, follow these steps:
    git clone https://github.com/yourusername/myshell.git
    cd myshell
 2. Compile the source code using the provided Makefile by entering:
-   `make`
+   ```bash
+   make
+
+## usage
+1. To use the shell simply enter:
+   ```bash
+   ./myshell
+in the terminal and a welcome screen should appear.
+
+## commands
+Internal Commands
+mycd <directory>
+
+    Changes the current directory to <directory>.
+    If <directory> is not provided, it reports the current directory.
+    Reports an error if the directory does not exist.
+    Changes the PWD environment variable accordingly.
+
+myclr
+
+    Clears the terminal screen.
+
+mydir <directory>
+
+    Lists the contents of <directory>.
+
+myenviron
+
+    Lists all the environment variables.
+
+myecho <comment>
+
+    Displays <comment> followed by a new line. Reduces multiple spaces/tabs to a single space.
+
+myhelp
+
+    Displays the user manual using the standard more filter.
+
+mypause
+
+    Pauses the shell until 'Enter' is pressed.
+
+myquit
+
+    Exits the shell.
+
+Custom Command
+myone
+
+    A unique command that provides functionality not offered by standard Linux commands. Detailed description and usage instructions for myone are provided below.
+## implementation-details
+## makefile
+## contributing
+## license
+## contact
+
