@@ -15,7 +15,7 @@ This repository contains the source code and documentation for MyShell, a simple
 - [Release Notes:](#Release-Notes)
 - [License](#license)
 - [Contact](#contact)
-- [Credits](#credits)
+- [Co-Authors](#co-authors)
 
 ## Introduction
 
@@ -159,11 +159,13 @@ A Makefile is provided to compile the source code. Use the following command to 
 - **Initial Release**
 
 ## license
-## contact
-- `Email:` litebohomaseli3@gmail.com
-- `instagram:` litebohomaseli
-## credits
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## contact
+- `Email:` litebohomaseli3@gmail.com
+- `instagram:` [litebohomaseli](https://www.instagram.com/litebohomaseli/)
+## co-authors
+- **Keketso Tolo** - [@kent_tolo](https://www.instagram.com/kent_tolo/)
+- **Mosiuoa Sello** - [@_mossie__](https://www.instagram.com/_mossie__/)
+- **Khoase Hashatsi** - [@fred_hashatsi](https://www.instagram.com/fred_hashatsi/)
+
 
