@@ -1,0 +1,38 @@
+MyShell User Manual
+-------------------
+Welcome to MyShell, a simple command-line interpreter!
+
+1. Internal Commands:
+   - mycd <directory>: Change the current directory to the specified <directory>. If no directory is provided, display the current directory.
+   - myclr: Clear the screen.
+   - mydir <directory>: List the contents of the specified <directory>. If no directory is provided, list the contents of the current directory.
+   - myenviron: List all the environment strings.
+   - myecho <comment>: Display the specified <comment> followed by a newline.
+   - myone: Ask the user if they like Linux.
+   - myhelp: Display this user manual.
+   - mypause: Pause the operation of the shell until 'Enter' is pressed.
+   - myquit: Quit the shell.
+
+2. Command Line Prompt:
+   - The command line prompt displays the pathname of the current directory followed by "> ".
+
+3. Additional Functionality:
+   - External commands: MyShell supports execution of external commands. Simply type the command name and any arguments separated by spaces.
+
+4. Usage:
+   - To use MyShell, simply type the desired command followed by any arguments (if applicable) and press Enter.
+   - For example:
+     - To change the directory: mycd <directory_name>
+     - To list directory contents: mydir <directory_name>
+     - To display environment strings: myenviron
+     - To display a message: myecho <message>
+     - To ask if the user likes Linux: myone
+     - To pause the shell: mypause
+     - To quit the shell: myquit
+
+5. Notes:
+   - Ensure correct spelling and syntax when entering commands.
+   - Commands can be entered in uppercase or lowercase.
+   - Use quotation marks for commands or arguments containing spaces.
+
+Thank you for using MyShell!
