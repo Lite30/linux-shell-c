@@ -94,7 +94,80 @@ Internal Commands
 `myone`
  -A unique command that provides functionality not offered by standard Linux commands. Detailed description and usage instructions for myone are provided below.
 ## implementation-details
+Implementation Details
+mycd
+
+    Uses the chdir system call to change the directory.
+    Updates the PWD environment variable.
+
+myclr
+
+    Uses ANSI escape codes to clear the screen.
+
+mydir
+
+    Uses opendir, readdir, and closedir functions to list directory contents.
+
+myenviron
+
+    Iterates through the environment variables using the environ pointer.
+
+myecho
+
+    Prints the arguments to the standard output, ensuring multiple spaces/tabs are reduced to a single space.
+
+myhelp
+
+    Uses the more filter to display the user manual, typically found in a help text file.
+
+mypause
+
+    Waits for the user to press 'Enter' by reading from standard input.
+
+myquit
+
+    Exits the shell using the exit system call.
+
+myone
+
+    Description: myone is a custom command that, for instance, could calculate and display the current system's uptime.
+    Usage:
+
+    bash
+
+myone
+
+Implementation:
+
+    Reads from the /proc/uptime file and displays the system uptime in a human-readable format.
 ## makefile
+A Makefile is provided to compile the source code. Use the following command to compile:
+
+bash
+
+make
+
+Sample Makefile
+
+makefile
+
+# Makefile for MyShell
+
+CC = gcc
+CFLAGS = -Wall -Werror -std=c99
+TARGET = myshell
+
+all: $(TARGET)
+
+$(TARGET): myshell.o
+	$(CC) $(CFLAGS) -o $(TARGET) myshell.o
+
+myshell.o: myshell.c
+	$(CC) $(CFLAGS) -c myshell.c
+
+clean:
+	rm -f *.o $(TARGET)
+
 ## contributing
  Fork the repository.
  Create a new branch (`git checkout -b feature-branch`).
@@ -103,5 +176,6 @@ Internal Commands
  Open a Pull Request.
 
 ## license
+This project is licensed under the MIT License - see the LICENSE file for details.
 ## contact
 
