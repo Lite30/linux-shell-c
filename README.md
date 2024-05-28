@@ -58,7 +58,7 @@ Internal Commands
 
 `mycd <directory>`
 
- -Changes the current directory to <directory>.
+ - **Changes the current directory to <directory>**.
  -If <directory> is not provided, it reports the current directory.
  -Reports an error if the directory does not exist.
  -Changes the PWD environment variable accordingly.
