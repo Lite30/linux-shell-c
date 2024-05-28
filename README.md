@@ -55,7 +55,8 @@ in the terminal and a welcome screen should appear.
 
 ## commands
 Internal Commands
-mycd <directory>
+
+`mycd <directory>`
 
  -Changes the current directory to <directory>.
  -If <directory> is not provided, it reports the current directory.
@@ -89,10 +90,8 @@ mycd <directory>
 `myquit`
 
  -Exits the shell.
-
-Custom Command
+ 
 `myone`
-
  -A unique command that provides functionality not offered by standard Linux commands. Detailed description and usage instructions for myone are provided below.
 ## implementation-details
 ## makefile
