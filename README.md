@@ -81,7 +81,7 @@ Internal Commands
 
 `myhelp`
 
- - **Displays the user manual using the standard more filter**.
+ - **Displays the user manual using the standard `more` filter**.
 
 `mypause`
 
@@ -110,13 +110,13 @@ Implementation Details
 
  - **Uses ANSI escape codes to clear the screen.**.
 
-`mydir <directory>`
+`mydir`
 
- - **Uses `opendir`, `readdir`, and `closedir` functions to list directory contents.**.
+ - **Uses `opendir`, `readdir`, and `closedir` functions to list directory contents.**
 
 `myenviron`
 
- - **Iterates through the environment variables using the `environ` pointer.
+ - **Iterates through the environment variables using the `environ` pointer.**
 `myecho `
 
  - **Prints the arguments to the standard output, ensuring multiple spaces/tabs are reduced to a single space.**.
@@ -144,36 +144,14 @@ Implementation:
 ## makefile
 A Makefile is provided to compile the source code. Use the following command to compile:
 
-    ```bash
     make
 
-Sample Makefile
-
-makefile
-
-# Makefile for MyShell
-
-CC = gcc
-CFLAGS = -Wall -Werror -std=c99
-TARGET = myshell
-
-all: $(TARGET)
-
-$(TARGET): myshell.o
-	$(CC) $(CFLAGS) -o $(TARGET) myshell.o
-
-myshell.o: myshell.c
-	$(CC) $(CFLAGS) -c myshell.c
-
-clean:
-	rm -f *.o $(TARGET)
-
 ## contributing
- Fork the repository.
- Create a new branch (`git checkout -b feature-branch`).
- Make your changes and commit them (`git commit -m 'Add new feature'`).
- Push to the branch (`git push origin feature-branch`).
- Open a Pull Request.
+ - **Fork the repository.**
+ - **Create a new branch (`git checkout -b feature-branch`)**.
+ - **Make your changes and commit them (`git commit -m 'Add new feature'`)**.
+ - **Push to the branch (`git push origin feature-branch`)**.
+ - **Open a Pull Request.**
 
 ## license
 This project is licensed under the MIT License - see the LICENSE file for details.
