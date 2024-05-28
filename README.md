@@ -43,8 +43,8 @@ To install MyShell,navigate to your desired directory in Linux and follow these 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/myshell.git
-   cd myshell
+   git clone https://github.com/Lite30/linux-shell-c.git
+   cd linux-shell-c
 2. Compile the source code using the provided Makefile by entering:
    ```bash
    make
