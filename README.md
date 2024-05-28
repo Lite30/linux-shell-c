@@ -57,46 +57,52 @@ in the terminal and a welcome screen should appear.
 Internal Commands
 mycd <directory>
 
-    Changes the current directory to <directory>.
-    If <directory> is not provided, it reports the current directory.
-    Reports an error if the directory does not exist.
-    Changes the PWD environment variable accordingly.
+ -Changes the current directory to <directory>.
+ -If <directory> is not provided, it reports the current directory.
+ -Reports an error if the directory does not exist.
+ -Changes the PWD environment variable accordingly.
 
-myclr
+`myclr`
 
-    Clears the terminal screen.
+ -Clears the terminal screen.
 
-mydir <directory>
+`mydir <directory>`
 
-    Lists the contents of <directory>.
+ -Lists the contents of <directory>.
 
-myenviron
+`myenviron`
 
-    Lists all the environment variables.
+ -Lists all the environment variables.
 
-myecho <comment>
+`myecho <comment>`
 
-    Displays <comment> followed by a new line. Reduces multiple spaces/tabs to a single space.
+ -Displays <comment> followed by a new line. Reduces multiple spaces/tabs to a single space.
 
-myhelp
+`myhelp`
 
-    Displays the user manual using the standard more filter.
+ -Displays the user manual using the standard more filter.
 
-mypause
+`mypause`
 
-    Pauses the shell until 'Enter' is pressed.
+ -Pauses the shell until 'Enter' is pressed.
 
-myquit
+`myquit`
 
-    Exits the shell.
+ -Exits the shell.
 
 Custom Command
-myone
+`myone`
 
-    A unique command that provides functionality not offered by standard Linux commands. Detailed description and usage instructions for myone are provided below.
+ -A unique command that provides functionality not offered by standard Linux commands. Detailed description and usage instructions for myone are provided below.
 ## implementation-details
 ## makefile
 ## contributing
+ Fork the repository.
+ Create a new branch (`git checkout -b feature-branch`).
+ Make your changes and commit them (`git commit -m 'Add new feature'`).
+ Push to the branch (`git push origin feature-branch`).
+ Open a Pull Request.
+
 ## license
 ## contact
 
